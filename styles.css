@@ -48,11 +48,27 @@ html {
   border-bottom-right-radius: 20px;
 }
 
+#price-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  gap: 10%;
+}
+
+.wrapper {
+  font-size: 0.8rem;
+
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
 /* FONT STYLING */
 
-#right-section > h4, #right-section > p {
+.wrapper > h4, .wrapper > p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  color: var(--neutral-dark-grayish-blue);
 }
 
 button > p {
@@ -60,9 +76,48 @@ button > p {
   font-weight: 700;
 }
 
-#right-section > h1 , #price-section > h1 {
+.wrapper > h1 , #price-section > h1 {
   font-family: "Fraunces", sans-serif;
   font-weight: 700;
+}
+
+.wrapper > p {
+  line-height: 25px;
+}
+
+.wrapper > h1 {
+  line-height: 35px;
+}
+
+.wrapper > h4 {
+  letter-spacing: 5px;
+}
+
+#price-section > h4 {
+  text-decoration: line-through;
+  color: var(--neutral-dark-grayish-blue)
+}
+
+#price-section > h1 {
+  color: var(--primary-dark-cyan);
+}
+
+/* BUTTON STYLING */
+
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 20px;
+  height: 13%;
+  width: 100%;
+
+  margin-bottom: 10%;
+
+  color: var(--neutral-white);
+  background-color: var(--primary-dark-cyan);
 }
 
 /*
