@@ -9,8 +9,6 @@
 html,
 body {
   background-color: var(--primary-cream);
-  margin: 0;
-  padding: 0;
 }
 
 body {
@@ -32,7 +30,7 @@ body {
 
 /* LEFT SECTION */
 .left-section {
-    flex-basis: 50%;
+  flex-basis: 50%;
 }
 
 img {
@@ -44,5 +42,59 @@ img {
 
 /* RIGHT SECTION */
 .right-section {
-    flex-basis: 50%;
+  flex-basis: 50%;
+
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
 }
+
+.right-section > h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin-top: 10%;
+}
+
+.right-section > h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 50px;
+  padding-right: 15%;
+  margin-top: 0px;
+}
+
+.right-section > p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding-right: 18%;
+  margin-top: 0px;
+}
+
+/* PRICE SECTION */
+
+.price-section > h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+}
+
+.price-section > h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.price-section {
+  display: flex;
+  flex-direction: row;
+}
+
+/* 
+    FONT FAMILIES
+
+    font-family: "Fraunces", serif;
+    Weights: 700
+
+    font-family: "Montserrat", sans-serif;
+    Weights: 500, 700
+*/
