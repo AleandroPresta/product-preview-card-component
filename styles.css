@@ -31,6 +31,7 @@ body {
 /* LEFT SECTION */
 .left-section {
   flex-basis: 50%;
+  padding: 0;
 }
 
 img {
@@ -42,34 +43,34 @@ img {
 
 /* RIGHT SECTION */
 .right-section {
-  flex-basis: 50%;
-
   display: flex;
+  flex-basis: 50%;
   flex-direction: column;
-  padding-left: 5%;
+  box-sizing: border-box;
   padding-right: 5%;
+  padding-left: 5%;
 }
 
 .right-section > h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   letter-spacing: 5px;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 .right-section > h1 {
   font-family: "Fraunces", serif;
   font-weight: 700;
   font-size: 50px;
-  padding-right: 15%;
   margin-top: 0px;
+  line-height: 1;
 }
 
 .right-section > p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  padding-right: 18%;
   margin-top: 0px;
+  line-height: 1.8;
 }
 
 /* PRICE SECTION */
@@ -87,7 +88,11 @@ img {
 .price-section {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  gap: 8%;
 }
+
+/* BUTTON STYLING */
 
 /* 
     FONT FAMILIES
