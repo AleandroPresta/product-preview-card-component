@@ -22,7 +22,7 @@ body {
 .card {
   display: flex;
   flex-direction: row;
-  height: 65%;
+  height: 63%;
   width: 45%;
   background-color: var(--neutral-white);
   border-radius: 20px;
@@ -34,7 +34,7 @@ body {
   padding: 0;
 }
 
-img {
+.left-section > img {
   height: 100%;
   width: 100%;
   border-top-left-radius: 20px;
@@ -55,7 +55,8 @@ img {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   letter-spacing: 5px;
-  margin-top: 15%;
+  margin-top: 13%;
+  color: var(--neutral-dark-grayish-blue);
 }
 
 .right-section > h1 {
@@ -70,7 +71,8 @@ img {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   margin-top: 0px;
-  line-height: 1.8;
+  line-height: 1.7;
+  color: var(--neutral-dark-grayish-blue);
 }
 
 /* PRICE SECTION */
@@ -78,11 +80,14 @@ img {
 .price-section > h1 {
   font-family: "Fraunces", serif;
   font-weight: 700;
+  color: var(--primary-dark-cyan);
 }
 
 .price-section > h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  text-decoration: line-through;
+  color: var(--neutral-dark-grayish-blue);
 }
 
 .price-section {
@@ -93,6 +98,22 @@ img {
 }
 
 /* BUTTON STYLING */
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  height: 8%;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--primary-dark-cyan);
+  color: var(--neutral-white);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
 
 /* 
     FONT FAMILIES
