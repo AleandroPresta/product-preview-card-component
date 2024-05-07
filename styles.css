@@ -6,3 +6,43 @@
   --neutral-white: hsl(0, 0%, 100%);
 }
 
+body, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-cream);
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 92%;
+  width: 95%;
+}
+
+#left-section {
+  background-image: url("./images/image-product-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+
+  flex-basis: 40%;
+  height: 100%;
+  width: 100%;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#right-section {  
+  flex-basis: 60%;
+  height: 100%;
+  width: 100%;
+
+  background-color: var(--neutral-white);
+
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

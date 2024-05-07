@@ -1,0 +1,26 @@
+@media screen and (min-width: 650px) {
+  #card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 80%;
+  }
+
+  #left-section {
+    flex-basis: 50%;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+  }
+
+  #right-section {
+    flex-basis: 50%;
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+  }
+}
